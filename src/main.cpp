@@ -8,8 +8,8 @@
 
 #define LDR_PIN A0
 
-const char* ssid = "TP-LINK_44";         // Замість your_SSID введіть назву своєї Wi-Fi мережі
-const char* password = "0936461022"; // Замість your_PASSWORD введіть пароль
+const char* ssid = "TP-LINK_44";         // Назва Wi-Fi мережі
+const char* password = "0936461022"; // Пароль
 
 
 ESP8266WebServer server(80);  // Створюємо сервер на порті 80
